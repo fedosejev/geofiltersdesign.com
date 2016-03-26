@@ -1,0 +1,62 @@
+@import url(https://fonts.googleapis.com/css?family=Bitter:400,400italic,700);
+@import url(https://fonts.googleapis.com/css?family=Dancing+Script:400,700);
+
+@import "./_variables";
+@import "./_call-to-action-button";
+
+* {
+  font-family: 'Bitter', serif;
+  font-family: 'Dancing Script', cursive;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  font-size: 22px;
+  color: #333;
+  //background-color: #f7eb20;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.btn {
+  white-space: normal;
+}
+
+section {
+
+  h4 {
+    line-height: 1.3em;
+    color: #444;
+    font-size: $section-header-font-size;
+    font-weight: normal;
+    margin: 0px 0px 40px 0;
+  }
+
+  h5 {
+    line-height: 1.3em;
+    color: #444;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 40px 0px 40px 0;
+  }
+
+  a {
+    color: #333;
+    margin-top: 20px;
+
+    &:hover, &:active {
+      color: #111;
+      text-decoration: none;
+    }
+  }
+}
+
+@import "./_introduction";
+@import "./_book";
+@import "./_feedback";
+@import "./_footer";
