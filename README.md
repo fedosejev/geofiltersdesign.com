@@ -1,2 +1,1 @@
-# geofiltersdesign.com
-Source code for GeofiltersDesign.com
+# Source code for GeofiltersDesign.com
